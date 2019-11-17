@@ -1,0 +1,8 @@
+<app-template-header></app-template-header>
+<div class="list-view">
+    <h4>Produkte <span>({{ (_dataService.$products | async )?.length}})</span></h4>
+    <div class="shop-elements">
+        <app-template-shop (ping)="update($event)" [shop$]="product" *ngFor="let product of _dataService.$products | async"></app-template-shop>
+    </div>
+    <app-template-shop-form (ping)="create($event)"></app-template-shop-form>
+</div>

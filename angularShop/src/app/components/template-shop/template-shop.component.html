@@ -1,0 +1,20 @@
+<div class="shop" [class.done]="shop$.status">
+    <div class="shop-content">
+        <div class="handle"></div>
+        <!--<div class="id" (click)="deleteProduct($event)">
+            <span>{{shop$.id}}</span>
+        </div>-->
+        <div class="shop-content-check">
+            <img *ngIf="shop$.status" (click)="changeCheck($event)" src="./assets/svg/checkbox-done.svg">
+        </div>
+        <div class="shop-content-titel">
+            <input [disabled]="shop$.status" type="text" [(ngModel)]="shop$.description" placeholder="Produkt Name" (blur)="changeProductName($event)">
+        </div>
+        <div class="shop-content-titel">
+            <input [disabled]="shop$.status" type="text" [(ngModel)]="shop$.quantity" placeholder="Menge" (blur)="changeProductName($event)">
+        </div>
+    </div>
+    <div class="delete" (click)="deleteProduct($event)">
+        <span>Löschen</span>
+    </div>
+</div>

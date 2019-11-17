@@ -2,16 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
 
-## Local Json Server
-Run `npm install -g json-server`
-Run `json-server --watch server/db.json`
-Local Server is running under `http://localhost:3000`
-
-If you get problems with running you can call
-Run `Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser`
-
 ## Development server
-Change directory to `cd .\angularShop\`
+
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding

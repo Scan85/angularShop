@@ -1,0 +1,9 @@
+<div class="shop-form">
+    <div class="shop-content">
+        <input type="text" [(ngModel)]="product$.description" placeholder="Name des Produktes" (keyup.enter)="createNewProduct($event)" />
+        <input type="number" [(ngModel)]="product$.quantity" placeholder="Menge" (keyup.enter)="createNewProduct($event)" />
+    </div>
+    <div class="create" (click)="createNewProduct($event)">
+        <span>Hinzufügen</span>
+    </div>
+</div>

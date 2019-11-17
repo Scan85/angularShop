@@ -1,0 +1,43 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "description": "Amazon Stick",
+      "quantity": 10,
+      "position": 1,
+      "status": false
+    },
+    {
+      "id": 3,
+      "description": "Windows Phone",
+      "quantity": 10,
+      "position": 3,
+      "status": false
+    },
+    {
+      "id": 4,
+      "description": "Android",
+      "quantity": "12",
+      "position": 4,
+      "status": false
+    },
+    {
+      "description": "Kindle",
+      "status": false,
+      "id": 5,
+      "quantity": "312"
+    },
+    {
+      "description": "Sony",
+      "status": false,
+      "id": 6,
+      "quantity": "13"
+    },
+    {
+      "description": "Huawei",
+      "status": false,
+      "quantity": 20,
+      "id": 7
+    }
+  ]
+}

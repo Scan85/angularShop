@@ -1,0 +1,79 @@
+@import '../../../sass/var'
+
+.shop
+    width: 100%
+    background-color: $white
+    margin: 0 0 $cube 0
+    display: flex
+    flex-flow: row
+    justify-content: space-between
+    align-items: strech
+    height: 100%
+    .shop-content
+        width: 100%
+        display: flex
+        flex-flow: row
+        justify-content: flex-start
+        align-items: center
+        .handle
+            background-color: $prime
+            height: 100%
+            display: flex
+            flex-flow: row
+            padding: 0 $cube 0 $cube
+            justify-content: center
+            align-items: center
+            cursor: grab
+            img
+                width: $cube*2
+                height: $cube*2
+        .shop-content-check
+            display: flex
+            margin: $cube*2
+            flex-flow: row
+            justify-content: center
+            align-items: center
+            cursor: pointer
+            img
+                width: $cube*4
+                height: $cube*4
+        .shop-content-titel
+            width: 100%
+            input
+                font-size: $cube*2
+                padding: $cube*2
+                color: $second
+                width: 100%
+                border: none
+                word-break: break-word
+            input::placeholder
+                opacity: 0.5
+                font-style: italic
+            input:focus
+                outline: none
+    .delete
+        background-color: $red
+        color: $white
+        font-size: $cube*2
+        padding: $cube*2
+        cursor: pointer
+        span
+            height: 100%
+            width: 100%
+            display: flex
+            flex-flow: row
+            justify-content: center
+            align-items: center
+    .id
+        background-color: $white
+        color: $black
+        font-size: $cube*2
+        padding: $cube*2
+        cursor: pointer
+        span
+            height: 100%
+            width: 100%
+            display: flex
+            flex-flow: row
+            justify-content: center
+            align-items: center
